@@ -1,0 +1,86 @@
+/*********** compte.css ***********/
+/* affiché par ordre alphabétique */
+/**********************************/
+
+@media screen and (max-width: 600px) {
+  .boxg {width: 100%;}
+}
+
+@media screen and (min-width: 600px) {
+  .boxg {width: 30%;}
+}
+
+a{
+  text-decoration: none;
+}
+
+audio {
+margin-top: 33%;
+margin-bottom: 33%;
+}
+
+fieldset{
+  margin-top: 50px;
+  background: url('images/bgfieldset.jpg') no-repeat center fixed;
+}
+
+h1, h2{
+  margin: 0;
+}
+
+h1{
+  color: #383d44;
+  margin-top: 25px;
+  font-size: 2.5em;
+}
+
+h2{
+  font-size: 1em;
+}
+
+img{
+  max-width: 100%;
+  max-height: 60%;
+}
+
+legend{
+  color: black;
+}
+
+video{
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.boxg {
+  margin-top: 5px;
+  height: 400px;
+  background-color: white;
+  border: solid 2px #085281;
+  overflow: hidden;
+  position: relative;
+  text-align:center;
+  display: inline-block;
+  max-width: 100%;
+  padding: 1%;
+  margin-left: 0.7%;
+}
+
+.container { /* Contient les box */
+  height:auto;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  margin: 1% auto;
+  position: relative;
+  text-align:center;
+}
+
+.desc {
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  top: 310px;
+}

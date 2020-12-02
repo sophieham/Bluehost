@@ -1,0 +1,107 @@
+/********** login.css **********/
+/* trié par ordre alphabétique */
+/*******************************/
+
+a {
+color : white;
+}
+
+body {
+background-image : url('images/bg.jpg');
+line-height: 1;
+color: white;
+height: 100%;
+}
+
+form {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+fieldset {
+width : 50%;
+height : auto ;
+margin-right: auto;
+margin-left: auto;
+text-align : center;
+border-radius : 50px;
+border-color :  #085281;
+background-color : #085281;
+margin-top : 54px;
+margin-bottom :54px;
+max-width: 100%;
+}
+
+h1{
+color:white;
+max-width: 100%;
+}
+
+h2{
+  font-size: 1em;
+  color: white;
+}
+
+img {
+  vertical-align: middle;
+}
+
+input[type='text'], input[type='email'], input[type='password'] {
+border-radius : 2px;
+font-size : 1.25em;
+background-color :#1C8BDC;
+color : white;
+border-color : #1C8BDC;
+margin-bottom : 20px;
+max-width: 100%;
+background-repeat: no-repeat;
+background-position: 0px 5px;
+cursor: pointer;
+padding-left: 20px;
+vertical-align: middle;
+}
+
+input[type='submit']{
+  font-size : 1.25em;
+  background-color :#1C8BDC;
+  color : white;
+  border-color : #1C8BDC;
+  margin-bottom : 20px;
+  max-width: 100%;
+}
+
+p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25pt;
+}
+
+
+#register h1{
+  color: white;
+}
+
+
+.button{
+float : right;
+height : 50px;
+border-radius : 10px;
+margin-top : 10px;
+margin-right : 10px;
+}
+
+.moncompte{
+  color: white;
+}
+/* icones formulaire */
+
+.email{
+  background-image: url('images/ico/email.png');
+}
+.pass{
+  background-image: url('images/ico/pass.png');
+}
+.username{
+  background-image: url('images/ico/user.png');
+}

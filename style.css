@@ -1,0 +1,290 @@
+/*********** style.css ***********/
+/** trié par ordre alphabétique **/
+/*********************************/
+
+@media screen and (max-width: 600px) {
+  .boxg {
+    width: auto;
+    min-width: 90%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .boxg {width: 450px;}
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+a#imgdl {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+audio
+{
+  margin-top: 33%;
+  margin-bottom: 20%;
+}
+
+form{
+  padding: 1px;
+}
+
+h1{
+  color: #383d44;
+}
+
+img{
+  vertical-align: middle;
+}
+
+img#imagedl{
+  max-width: 100%;
+  max-height: 60%;
+}
+
+input {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  margin: 2px;
+}
+
+input[type=text]{
+  color: black;
+  font-size: 1em;
+}
+
+.bouton {
+  margin-top: 30px;
+  font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #FFF;
+	padding: 5px 50px 5px 50px;
+	border: 1px solid #1c76aa;
+	text-shadow: 0px 1px 1px #666;
+	text-decoration: none;
+	box-shadow: 0 1px 3px #111;
+	border-radius: 4px;
+	background: #55acee;
+}
+
+.bouton:hover{
+  background-color: #6FC6FF;
+}
+
+.box{ /* boites */
+  font-size: 20px;
+	width: 250px;
+	height: 370px;
+	margin:20px auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  vertical-align:middle;
+  display:inline-block;
+  background-color: white;
+	border: solid 2px #085281;
+	overflow: hidden;
+	position: relative;
+  text-align:center;
+}
+
+.box img { /* icones des box */
+  vertical-align: -8px;
+  margin: 5px;
+  height: auto;
+}
+.box h3 {
+  height: 25px;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.boxg {
+  margin-top: 5px;
+  height: 550px;
+  background-color: white;
+  border: solid 2px #085281;
+  overflow: hidden;
+  position: relative;
+  text-align:center;
+  display: inline-block;
+  max-width: 100%;
+  padding: 1%;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.boxg img { /* icones des box */
+  vertical-align: -10px;
+  text-align: center;
+}
+
+.boxg:hover {
+  border: 5px solid #085281;
+}
+
+.bnote{
+  background: none;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button {
+  width: 200px;
+  margin: 50px auto;
+}
+
+.bottom {
+  margin: -10px 0 0 10px;
+  text-align: center;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.button a {
+  display: block;
+  height: 50px;
+  width: 200px;
+  color: white;
+  font: 17px/50px Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  background: #00b7ea;
+  border-radius: 2px;
+}
+.button p {
+  background: #222;
+  display: block;
+  height: 40px;
+  width: 180px;
+  margin: -10px 0 0 10px;
+  text-align: center;
+  font: 12px/45px Helvetica, Verdana, sans-serif;
+  color: #fff;
+  position: absolute;
+}
+
+
+.container { /* Contient les box */
+  height:auto;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  margin: 1% auto;
+  position: relative;
+  text-align:center;
+}
+
+.compte {
+  border: 2px solid #085281;
+}
+
+.desc {
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+  position: absolute;
+  top: 325px;
+}
+
+.fileupload {
+  margin: auto;
+  width: 250px;
+  display: block;
+}
+
+.g {
+  position: absolute;
+  top: 425px;
+  left: 30%;
+  margin: 25px auto;
+}
+
+.goupload {
+  background-image: url('images/goupload_bg.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 5% 0 5%;
+  text-align: center;
+  height: auto;
+}
+
+.goupload :last-child {
+  margin-bottom: 0;
+}
+
+.goupload h2 {
+  color: #ffffff;
+  font-size: 3em;
+  line-height: 1.25em;
+  margin: 0 0 0.5em 0;
+  padding: 0;
+}
+
+.goupload p {
+  font-size: 1.5em;
+  margin-bottom: 1.75em;
+}
+
+.goupload li{
+  margin: 10px;
+}
+
+.gvideo
+{
+  height: 50%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.header {
+  color: black;
+  margin: 20px;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: inherit;
+}
+
+.header p {
+    font-size: 1em;
+}
+
+.ico {
+  vertical-align: 10px;
+}
+
+.infoimg {
+  vertical-align: -2.5px;
+}
+
+.note{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.searchbar {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  border:2px solid #085281;
+}
+
+.sep{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
