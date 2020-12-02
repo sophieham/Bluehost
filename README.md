@@ -13,4 +13,4 @@ Si vous souhaitez télécharger les fichiers sources, vous aurez besoin d'import
 
 ## Un aperçu?
 
-Vous pouvez vous promener sur le site en vous rendant à [cette adresse](sopham.fr/bluehost). Bonne visite!
+Vous pouvez vous promener sur le site en vous rendant à [cette adresse](https://www.sopham.fr/bluehost). Bonne visite!
